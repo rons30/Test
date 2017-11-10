@@ -60,8 +60,8 @@ Install & run the RTView Data Server
 
 *start_server*
 
-	This will start the RTView data server which will work as the 
-	receiver and cache storage for the incoming data.
+	This will start the RTView data server which will work as the 	receiver and cache storage 
+	for the incoming data.
 
 *cd ..*
 
@@ -79,9 +79,8 @@ Install & run the node script
 
 *node rtview_clearblade_feed*
 
-	This will start the node script which subscribes to a few ClearBlade 
-	topics and pushes the data into the RTView data server, which was set 
-	up in the previous section.
+	This will start the node script which subscribes to a few ClearBlade topics and pushes 
+	the data into the RTView data server, which was set up in the previous section.
 
 *cd ..*
 
