@@ -60,7 +60,7 @@ Bring up a Command prompt.
 
 *start_server*
 
-	This will start the RTView data server which will work as the 	receiver and cache storage 
+	This will start the RTView data server which will work as the receiver and cache storage 
 	for the incoming data.
 
 *cd ..*
@@ -117,7 +117,7 @@ http://localhost:3270/rtvquery
 * To test the connection, click on the green magnifying glass next to the LOCAL-CLEARBLADE.
 	This will bring up the RTView DataServer - Cache Tables dialog.
 	You should see "Connected" under Connection Status. 
-	You should see the ClearBladeCache in the CacheTable.
+	You should also see the ClearBladeCache in the CacheTable.
 	
 * Close the dialog.
 
