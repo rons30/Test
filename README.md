@@ -9,7 +9,7 @@ RTView-ClearBlade demo will:
 * Allow the users to enhance the existing RTView displays or create new ones.
 
 
-## Pre-requisites
+## Prerequisites
 
 ### Hardware Requirements
 A computer with:
