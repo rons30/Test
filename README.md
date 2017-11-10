@@ -1,4 +1,4 @@
-THE WORK ON THIS PROJECT IS UNDER PROGRESS.
+WORK UNDER PROGRESS
 
 # RTView ClearBlade Demo
 
@@ -29,8 +29,8 @@ or
 * Mozilla Firefox 50.x+
 
 * RTViewDataServer-Mini package (a zip file, which will be available through SL Corporation)
-* RTView_ClearBlade_Node package (a directory, which is available through GitHub)
 * RTView_ClearBlade_Displays package (a directory, which is available through GitHub)
+* RTView_ClearBlade_Node package (a directory, which is available through GitHub)
 
 * A free trial subscription to RTViewCloud services
 
@@ -44,7 +44,7 @@ On your computer:
 * Download the RTView-ClearBlade repository to your computer (i.e.,  RTView-MySQL-DB-master.zip)
 
 ### Installation and execution of the RTViewDataServer-Mini package
-Install & run the RTView Data Server
+Bring up a Command prompt.
 
 *cd rtvdemos*
 
@@ -65,8 +65,14 @@ Install & run the RTView Data Server
 
 *cd ..*
 
+
+### Installation of the RTView_ClearBlade_Displays package
+
+* Make sure you are in rtvdemos directory.
+* Extract the RTView_ClearBlade_Displays directory out of the RTView-ClearBlade-master.zip into rtvdemos.
+
+
 ### Installation and execution of the RTView_ClearBlade_Node package
-Install & run the node script
 
 * Make sure you are in rtvdemos directory.
 * Extract the RTView_ClearBlade_Node directory out of the RTView-MySQL-DB-master.zip into rtvdemos.
@@ -82,23 +88,37 @@ Install & run the node script
 	This will start the node script which subscribes to a few ClearBlade topics and pushes 
 	the data into the RTView data server, which was set up in the previous section.
 
-*cd ..*
-
-### Installation of the RTView_ClearBlade_Displays package
-Install, load & view the RTView_ClearBlade_Dislpays
-
-* Make sure you are in rtvdemos directory.
-* Extract the RTView_ClearBlade_Displays directory out of the RTView-ClearBlade-master.zip into rtvdemos.
-
 
 ### Subscription, configuration and execution of the RTViewCloud Services
 
 THE PROCESS FOR ACQUIRING A SUBSCRIPTION HAS NOT BEEN DEFINED, YET!
 
-* Log in to your RTViewCloud account.
+* Log in to your RTViewCloud account in your browser of choice.
 
 	Notice that you are automatically in your own private organization (e.g. JohnSPrivateOrg).
 	
+* On the top menu, click on Data.
+
+	This will take you to the RTData Server List page in which you will create a connection 
+	to your RTView data server.
+	
+* Click on the Add Server button.
+
+* For Name, type:
+LOCAL-CLEARBLADE
+
+* For Host/URL, type:
+http://localhost:3270/rtvquery
+
+* Click on Save Added Servers.
+
+* To test the connection, click on the green magnifying glass next to the LOCAL-CLEARBLADE.
+	This will bring up the RTView DataServer - Cache Tables dialog.
+	You should see "Connected" under Connection Status. 
+	You should see the ClearBladeCache in the CacheTable.
+	
+* Close the dialog.
+
 * On the top menu, click on Design.
 
 	This will bring up the RTDraw, which is RTViewCloud’s visual editor.
@@ -111,4 +131,4 @@ THE PROCESS FOR ACQUIRING A SUBSCRIPTION HAS NOT BEEN DEFINED, YET!
 	This will load the cb_mixing_plant_chicago_l display into the editor. 
 	This display is configured to connect to your local RTView data server and collect data. This process then populates the display with live data that is being collected by the node script from ClearBlade.
 
-Feel free to experiment with this project, modify it, enhance it and share your experiences, comments and/or enhancements with us.
+Feel free to experiment with this project, modify it, enhance it and share your experience, comments, suggestions and/or enhancements with us.
