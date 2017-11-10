@@ -125,12 +125,22 @@ http://localhost:3270/rtvquery
 
 	This will bring up the RTDraw, which is RTViewCloud’s visual editor.
 	
-* Click on File menu.
+* Click on File in the menu.
+
 * Click on Import ….
+
 * In the file browser, change directory to \rtvdemos\RTView_ClearBlade_Displays.
+
 * Pick one of the displays (e.g. cb_mixing_plant_chicago_l.json) and click Open.
+
+* Click on File in the menu.
+
+* Click on Open ….
+
+* Double click on cb_mixing_plant_chicago_l.
 
 	This will load the cb_mixing_plant_chicago_l display into the editor. 
 	This display is configured to connect to your local RTView data server and collect data. This process then populates the display with live data that is being collected by the node script from ClearBlade.
+
 
 Feel free to experiment with this project, modify it, enhance it and share your experience, comments, suggestions and/or enhancements with us.
