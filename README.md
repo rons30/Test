@@ -1,6 +1,6 @@
-<center>
+<p align="justify">
 **_WORK UNDER PROGRESS_**
-</center>
+</p>
 
 # RTView ClearBlade Demo
 
