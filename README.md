@@ -91,9 +91,11 @@ Bring up a Command prompt.
 
 ### Subscription, configuration and execution of the RTViewCloud Services
 
-THE PROCESS FOR ACQUIRING A SUBSCRIPTION HAS NOT BEEN DEFINED, YET!
+* In a browser, go to [RTViewClouds](http://rtviewcloud.sl.com/).
 
-* Log in to your RTViewCloud account in your browser of choice.
+* Click on Start Free Trial and follow the process to get your free trial account.
+
+* Log in to your RTViewCloud account.
 
 	Notice that you are automatically in your own private organization (e.g. JohnSPrivateOrg).
 	
