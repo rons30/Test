@@ -1,6 +1,6 @@
 
-<p align="WORK UNDER PROGRESS">
-  <img width="460" height="300" src="http://www.fillmurray.com/460/300">
+<p align="center">
+ WORK UNDER PROGRESS
 </p>
 
 
