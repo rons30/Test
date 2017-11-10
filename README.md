@@ -47,13 +47,18 @@ On your computer:
 Install & run the RTView Data Server
 
 *cd rtvdemos*
+
 *copy \sourcePath\RTViewDataServer-Mini.zip*
 	Where sourcePath is the location of your download
+
 *unzip RTViewDataServer-Mini.zip*
 	This will create a directory under rtvdemos by the same name (i.e., RTViewDataServer-Mini).
+
 *cd RTViewDataServer-Mini*
+
 *start_server*
 	This will start the RTView data server which will work as the receiver and cache storage for the incoming data.
+
 *cd ..*
 
 ### Installation and execution of the RTView_ClearBlade_Node package
@@ -61,11 +66,15 @@ Install & run the node script
 
 * Make sure you are in rtvdemos directory.
 * Extract the RTView_ClearBlade_Node directory out of the RTView-MySQL-DB-master.zip into rtvdemos.
+
 *cd RTView_ClearBlade_Node*
+
 *npm install*
-This will install the necessary node packages.
+	This will install the necessary node packages.
+
 *node rtview_clearblade_feed*
-This will start the node script which subscribes to a few ClearBlade topics and pushes the data into the RTView data server, which was set up in the previous section.
+	This will start the node script which subscribes to a few ClearBlade topics and pushes the data into the RTView data server, which was set up in the previous section.
+
 *cd ..*
 
 ### Installation of the RTView_ClearBlade_Displays package
@@ -80,14 +89,14 @@ Install, load & view the RTView_ClearBlade_Dislpays
 THE PROCESS FOR ACQUIRING A SUBSCRIPTION HAS NOT BEEN DEFINED, YET!
 
 * Log in to your RTViewCloud account.
-Notice that you are automatically in your own private organization (e.g. JohnSPrivateOrg).
+	Notice that you are automatically in your own private organization (e.g. JohnSPrivateOrg).
 * On the top menu, click on Design.
-This will bring up the RTDraw, which is RTViewCloud’s visual editor.
+	This will bring up the RTDraw, which is RTViewCloud’s visual editor.
 * Click on File menu.
 * Click on Import ….
 * In the file browser, change directory to \rtvdemos\RTView_ClearBlade_Displays.
 * Pick one of the displays (e.g. cb_mixing_plant_chicago_l.json) and click Open.
-This will load the cb_mixing_plant_chicago_l display into the editor. 
-This display is configured to connect to your local RTView data server and collect data. This process then populates the display with live data that is being collected by the node script from ClearBlade.
+	This will load the cb_mixing_plant_chicago_l display into the editor. 
+	This display is configured to connect to your local RTView data server and collect data. This process then populates the display with live data that is being collected by the node script from ClearBlade.
 
-Feel free to experiment with this project, modify it, enhance it and share your experiences, comments and/or enhancements with us.
+	Feel free to experiment with this project, modify it, enhance it and share your experiences, comments and/or enhancements with us.
