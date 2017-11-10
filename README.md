@@ -75,7 +75,7 @@ Bring up a Command prompt.
 ### Installation and execution of the RTView_ClearBlade_Node package
 
 * Make sure you are in rtvdemos directory.
-* Extract the RTView_ClearBlade_Node directory out of the RTView-MySQL-DB-master.zip into rtvdemos.
+* Extract the RTView_ClearBlade_Node directory out of the RTView-ClearBlade-master.zip into rtvdemos.
 
 *cd RTView_ClearBlade_Node*
 
