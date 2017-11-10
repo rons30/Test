@@ -49,14 +49,17 @@ Install & run the RTView Data Server
 *cd rtvdemos*
 
 *copy \sourcePath\RTViewDataServer-Mini.zip*
+
 	Where sourcePath is the location of your download
 
 *unzip RTViewDataServer-Mini.zip*
+
 	This will create a directory under rtvdemos by the same name (i.e., RTViewDataServer-Mini).
 
 *cd RTViewDataServer-Mini*
 
 *start_server*
+
 	This will start the RTView data server which will work as the receiver and cache storage for the incoming data.
 
 *cd ..*
