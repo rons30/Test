@@ -60,7 +60,8 @@ Install & run the RTView Data Server
 
 *start_server*
 
-	This will start the RTView data server which will work as the receiver and cache storage for the incoming data.
+	This will start the RTView data server which will work as the 
+	receiver and cache storage for the incoming data.
 
 *cd ..*
 
@@ -78,7 +79,9 @@ Install & run the node script
 
 *node rtview_clearblade_feed*
 
-	This will start the node script which subscribes to a few ClearBlade topics and pushes the data into the RTView data server, which was set up in the previous section.
+	This will start the node script which subscribes to a few ClearBlade 
+	topics and pushes the data into the RTView data server, which was set 
+	up in the previous section.
 
 *cd ..*
 
@@ -109,4 +112,4 @@ THE PROCESS FOR ACQUIRING A SUBSCRIPTION HAS NOT BEEN DEFINED, YET!
 	This will load the cb_mixing_plant_chicago_l display into the editor. 
 	This display is configured to connect to your local RTView data server and collect data. This process then populates the display with live data that is being collected by the node script from ClearBlade.
 
-	Feel free to experiment with this project, modify it, enhance it and share your experiences, comments and/or enhancements with us.
+Feel free to experiment with this project, modify it, enhance it and share your experiences, comments and/or enhancements with us.
