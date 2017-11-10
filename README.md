@@ -20,9 +20,9 @@ A computer with:
 
 ### Software Requirements
 A computer with:
-* Node.js Version 6.9.0 or newer
+- Node.js Version 6.9.0 or newer
 
-* Google Chrome 57.x+
+- Google Chrome 57.x+
 or
 * Microsoft Internet Explorer 11.x, Edge
 or
