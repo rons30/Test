@@ -143,4 +143,4 @@ http://localhost:3270/rtvquery
 	This display is configured to connect to your local RTView data server and collect data. This process then populates the display with live data that is being collected by the node script from ClearBlade.
 
 
-Feel free to experiment with this project, modify it, enhance it and share your experience, comments, suggestions and/or enhancements with us.
+**_Feel free to experiment with this project, modify it, enhance it and share your experience, comments, suggestions and/or enhancements with us._**
